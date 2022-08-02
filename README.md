@@ -4,8 +4,11 @@
 import { default as namehash } from 'eth-ens-namehash';
 
 1.1 Resolve domain hash
+
 //all tldindex
+
 //tldindex  ok:0 okt:1 okc:2 okx:3
+
 
 //88888.okx
 //name:88888
@@ -79,5 +82,4 @@ resolverContract.methods.addr(domainhash).call({gas:0})
           let okAddress = result;
       }).catch((err) => {
 	        });
-
 
