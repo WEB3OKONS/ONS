@@ -11,11 +11,17 @@ import { default as namehash } from 'eth-ens-namehash';
 
 
 //88888.okx
+
 //name:88888
+
 //tldindex:3
+
 //tld:okx
+
 let name = "88888"+"-"+3+"."+"okx" //88888-3.okx
+
 let domainhash = namehash.hash(name);
+
 //
 
 1.2 Get domain resolver contract address
