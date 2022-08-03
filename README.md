@@ -10,19 +10,20 @@ import { default as namehash } from 'eth-ens-namehash';
 //tldindex  ok:0 okt:1 okc:2 okx:3
 
 
-//88888.okx
+//Hansen.okx
 
-//name:88888
+//name:Hansen
 
 //tldindex:3
 
 //tld:okx
 
-let name = "88888"+"-"+3+"."+"okx" //88888-3.okx
+let name = "Hansen"+"-"+3+"."+"okx" //Hansen-3.okx
+//Convert to lowercase
 
-let domainhash = namehash.hash(name);
+let domainhash = namehash.hash(name.toLocaleLowerCase());
 
-//
+//0xef5e6d830730d19bf3aedc4d2e2312f9518e980de87a70ca2a96879240262039
 
 1.2 Get domain resolver contract address
 
